@@ -1,0 +1,49 @@
+#divContainer {
+	width:auto;
+	margin:0 auto;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	background-color: rgba(33, 63, 79, 0.8); /* #213F4F */
+	border-style: solid;
+	border-width: 2px;
+	border-color: #406C82;
+	border-radius: 5px;
+}
+
+#divText {
+	margin-top: 20px;
+    text-align: center; 
+    font-size: 15px;
+    font-weight: bold;
+    font-family: verdana;
+    color: #FFFFFF;
+}
+
+#idHr {
+	border-style: dashed;
+	width: 100px;
+}
+
+#divDownload {
+	margin-top: 15px;
+}
+
+#divTable {
+	margin-top: 0px;
+	margin-bottom: 10px;
+	margin-left:30px;
+	margin-right:30px;
+	overflow: auto;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th{
+	white-space: nowrap;
+} 
+td {
+	white-space: normal;
+}
