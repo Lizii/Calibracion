@@ -38,24 +38,7 @@
 						->setCellValue('B3', $titulosColumnas[1])
 						->setCellValue('C3', $titulosColumnas[2])
 						->setCellValue('D3', $titulosColumnas[3]);
-						/*->setCellValue('E3', $titulosColumnas[4])
-						->setCellValue('F3', $titulosColumnas[5])
-						->setCellValue('G3', $titulosColumnas[6])
-						->setCellValue('H3', $titulosColumnas[7])
-						->setCellValue('I3', $titulosColumnas[8])
-						->setCellValue('J3', $titulosColumnas[9])
-						->setCellValue('K3', $titulosColumnas[10])
-						->setCellValue('L3', $titulosColumnas[11])
-						->setCellValue('M3', $titulosColumnas[12])
-						->setCellValue('N3', $titulosColumnas[13])
-						->setCellValue('O3', $titulosColumnas[14])
-						->setCellValue('P3', $titulosColumnas[15])
-						->setCellValue('Q3', $titulosColumnas[16])
-						->setCellValue('R3', $titulosColumnas[17])
-						->setCellValue('S3', $titulosColumnas[18])
-						->setCellValue('T3', $titulosColumnas[19])
-						->setCellValue('U3', $titulosColumnas[20])*/
-			            
+					
 			//Se agregan los datos de los alumnos
 			$i=4;
 			//$contador=1;

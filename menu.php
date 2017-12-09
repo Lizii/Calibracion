@@ -25,10 +25,11 @@
                         
                         <nav id="navigation">
                             <ul id="main-ncpr">
-                                <li class="parent"><a href="#"> CALIBRACIONES </a>
+                                <li class="parent"><a href="#"> SISTEMA DE CALIBRACIONES </a>
                                     <ul class="sub-ncpr">
                                         <li><a href="/calibracion/AltaEquipo.php"><i class="fa fa-file"></i> ALTA EQUIPO </a></li>
 										<li><a href="/calibracion/reports/ReporteCalibracion.php"><i class="fa fa-file"></i> Reporte </a></li>
+										<li><a href="/calibracion/reports/NuevaCalibracion.php"><i class="fa fa-file"></i> NUEVA CALIBRACION </a></li>
                                     </ul>
                                 </li>
 								

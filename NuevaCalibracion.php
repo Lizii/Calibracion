@@ -38,29 +38,16 @@
 
 
 					<tr>
-						<td class="f"> EQUIPO </td>
-						<td> <input type="text" name="equipo" class="ff" title="El campo no puede estar vacio." placeholder="EQUIPO" required /></td>
+						<td class="f"> ID EQUIPO </td>
+						<td> <input type="text" name="idquipo" class="ff" title="El campo no puede estar vacio." placeholder="ID EQUIPO" required /></td>
 					</tr>
 					
 					<tr>
-						<td class="f"> NUMERO DE SERIE:</td>
-						<td> <input type="text" name="serie" class="ff" title="El campo no puede estar vacio." placeholder="NUMERO DE SERIE" required /></td>
-					</tr>
-					
-					<tr>
-						<td class="f"> TIEMPO DE EXPIRACION: </td>
-						<td> <input type="text" name="tiempo" class="ff" title="El campo no puede estar vacio." placeholder="TIEMPO DE EXPIRACION" required /></td>
-					</tr>
-					
-					<tr>
-				   		<td> ULTIMA ACTUALIZACION: </td>
-				    	<td> <input type="text" name="UActualizacion" id="idFecha2" class="ff" title="El campo no puede estar vacio." placeholder="FECHA DE ACTUALIZACION" required /></td>
+				   		<td> FECHA CALIBRACION: </td>
+				    	<td> <input type="text" name="FechaCalibracion" id="idFecha2" class="ff" title="El campo no puede estar vacio." placeholder="FECHA DE CALIBRACION" required /></td>
 				    </tr>
 					
-					<tr>
-						<td class="f"> VALORES: </td>
-						<td> <input type="text" name="VALORES" class="ff" title="El campo no puede estar vacio." placeholder="VALORES DE CALIBRACION" required /></td>
-					</tr>	
+					
 							
 				</table>
 	

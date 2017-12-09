@@ -56,7 +56,7 @@
 					$objCon = new DBManager;
 					if ($objCon->conectar()==true)
 					{
-						$sql = "SELECT id_equipo, Equipo, Numero_serie, Tiempo FROM tbequipo";
+						$sql = "SELECT id_equipo, Equipo, Numero_serie, Tiempo, Ultima_Calibracion, Valores FROM tbequipo";
 						$datos = mysql_query($sql);
 
 						$numRows = 0;
@@ -73,7 +73,11 @@
 									<th>EQUIPO</th>
 									<th>NUMERO DE SERIE</th>
 									<th>TIEMPO</th>
-								
+									<th>ULTIMA CALIBRACION</th>
+									<th>VALORES</th>
+									<th>DIAS RESTANTES PARA SIGUIENTE CALIBRACION</th>
+									<th>AÑADIR CALIBRACION</th>
+									<th>HISTORIAL CALIBRACIONES</th>
 								
 								</tr>
 							</thead>
@@ -89,6 +93,12 @@
 									<td> $row[Equipo] </td>
 									<td> $row[Numero_serie] </td>
 									<td> $row[Tiempo] </td>
+									<td> $row[Ultima_Calibracion] </td>
+									<td> $row[Valores] </td>
+									<td>  </td>
+									<td>  </td>
+									<td>  </td>
+								
 									
 								</tr>"; 
 						}	

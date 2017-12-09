@@ -29,14 +29,27 @@
 			{
 				
 				date_default_timezone_set('America/Los_Angeles');
+				/*$FECHA=date("Y-m-d"); // Formato: Año-Mes-Dia  YYYY-mm-dd   2016-11-15 */
+				
+				//$f_anio=substr($FECHA, 0, 4);
+				//$f_mes=substr($FECHA,  5, 2);
+				//$f_dia=substr($FECHA,  8, 2);
+
+
+				//$fechapdf= $f_dia.'-'.$f_mes.'-'.$f_anio;
+				//$HORA=date("H:i");
+
 
 				$EQUIPO=strtoupper($_POST['equipo']);
 				$SERIE=strtoupper($_POST['serie']);
 				$TIEMPO=strtoupper($_POST['tiempo']);
+				$ExpDate=($_POST['UActualizacion']); //date
+				$VALORES=strtoupper($_POST['VALORES']);
 				
+				$ExpDate = date("d-m-Y", strtotime($ExpDate));
 	
 
-				$sql="INSERT INTO tbequipo VALUES('NULL', '$EQUIPO', '$SERIE', '$TIEMPO')";
+				$sql="INSERT INTO tbequipo VALUES('NULL', '$EQUIPO', '$SERIE', '$TIEMPO', '$ExpDate', '$VALORES')";
 				$result=mysql_query($sql) or die (mysql_error());
 
 				
