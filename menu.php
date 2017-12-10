@@ -29,7 +29,7 @@
                                     <ul class="sub-ncpr">
                                         <li><a href="/calibracion/AltaEquipo.php"><i class="fa fa-file"></i> ALTA EQUIPO </a></li>
 										<li><a href="/calibracion/reports/ReporteCalibracion.php"><i class="fa fa-file"></i> Reporte </a></li>
-										<li><a href="/calibracion/reports/NuevaCalibracion.php"><i class="fa fa-file"></i> NUEVA CALIBRACION </a></li>
+										<li><a href="/calibracion/NuevaCalibracion.php"><i class="fa fa-file"></i> NUEVA CALIBRACION </a></li>
                                     </ul>
                                 </li>
 								
